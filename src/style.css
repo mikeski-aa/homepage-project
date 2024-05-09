@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(134, 134, 255);
+    display: flex;
+    height: 22.5vh;
+}
+
+footer {
+    background-color: rgb(134, 134, 255);
+    height: 22.5vh;
+    display: flex;
+}
+
+.headshot {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+    gap: 1rem;
+}
+
+.project {
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.headerImg {
+    background-size:cover;
+}
+
+.myName {
+    color: white;
+}
