@@ -200,6 +200,12 @@ button:hover {
     justify-self: start;
 }
 
+@media (max-width: 1063px) {
+    footer {
+        border-radius: 0% 25% 0% 0%;
+    }
+}
+
 @media (max-width: 750px) {
     header {
         display: flex;
@@ -219,4 +225,6 @@ button:hover {
     .headshot {
         size:inherit
     }
+
+    
 }
